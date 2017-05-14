@@ -1,0 +1,56 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector Game</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+	<header class = "container" id="heading">
+		<h1>Crystal Collector!</h1>
+	</header>
+
+	<section class = "container" id = "instructions">
+		You will be given a random number at the start of the game. <br><br>
+
+		There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.<br><br>
+
+		You win the game by matching your total score the random number, you lose the game if your total score goes above the random number. <br><br>
+		The value of each crystal is hidden from you until you click on it. <br><br>
+
+		Each time when the game starts, the game will change the values of each crystal. 
+	</section>
+
+	<div class = "container" id="randomnum">
+		00
+	</div>
+
+	<div class = "container" id="winsandlosses"> 
+		Wins: <span id = "wins"> 0 </span>
+		Losses: <span id = "losses"> 0 </span>
+
+	</div>
+
+	<div id="crystals">
+		<img class = "crystalimgs" id = "purplecrys" src = "assets/images/purplecrys.jpg">
+		<img class = "crystalimgs" id = "crazycrys" src = "assets/images/crazycrys.jpg">
+		<img class = "crystalimgs" id = "bluecrys" src = "assets/images/bluecrys.jpg">
+		<img class = "crystalimgs" id = "whitecrys" src = "assets/images/whitecrys.jpg">
+	</div>
+
+	<header class = "score" id = "scorehead">
+		Your total score is:
+	</header>
+
+	<div class = "score" id="scorenums">
+		0
+	</div>
+
+	<script src = "assets/javascript/game.js"></script>
+</body>
+</html>

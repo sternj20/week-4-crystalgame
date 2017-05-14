@@ -1,0 +1,61 @@
+*{
+	box-sizing: border-box
+}
+body{
+	font-size:16px;
+	line-height:20px;
+}
+
+.container {
+	width:50%;
+}
+#heading{
+	background:orange;
+	padding:50px;
+}
+
+#instructions{
+	margin:10px 0;
+	background:tan;
+
+}
+
+#randomnum{
+	width:30%;
+	height:100px;
+	display:inline-block;
+	background:green;
+}
+
+#winsandlosses{
+	
+	width:20%;
+	height:100px;
+	display:inline-block;
+	background:green;
+}
+
+#crystals{
+	margin:10px 0;
+}
+.crystalimgs {
+	width:100px;
+	height:100px;
+
+}
+
+#scorehead{
+	background:green;
+	width:30%;
+	height:30px;
+}
+
+#scorenums{
+	background:green;
+	margin-top:10px;
+	width:30%;
+	height:70px;
+}
+h1{
+	font-size:28px;
+}
